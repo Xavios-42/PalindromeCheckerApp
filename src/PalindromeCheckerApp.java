@@ -3,6 +3,7 @@ public class PalindromeCheckerApp {
         String word = "level";
         System.out.println("Checking word: " + word);
         String reversed = "";
+
         for (int i = word.length() - 1; i >= 0; i--) {
             reversed = reversed + word.charAt(i);
             if (word.equals(reversed)) {
