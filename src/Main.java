@@ -8,5 +8,7 @@ public class Main {
         // Flow control: program continues or exits
         System.out.println("Application started successfully...");
         System.out.println("Ready for next use case (Palindrome validation).");
+
+        System.out.println("\n=======================================");
     }
 }
