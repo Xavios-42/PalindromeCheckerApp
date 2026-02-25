@@ -9,6 +9,16 @@ public class Main {
         System.out.println("Application started successfully...");
         System.out.println("Ready for next use case (Palindrome validation).");
 
-        System.out.println("\n=======================================");
+        System.out.println("\n=======================================\n");
+
+        String word = "madam";
+        System.out.println("Checking word: " + word);
+        String reversed = new StringBuilder(word).reverse().toString();
+        if (word.equals(reversed)) {
+            System.out.println("Result: \"" + word + "\" is a palindrome.");
+        } else {
+            System.out.println("Result: \"" + word + "\" is NOT a palindrome.");
+        }
+        System.out.println("Program finished.");
     }
 }
